@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/black.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Сourses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="avatar" src="img/AVA2-black.png" alt="my black foto">
+                <div class="name-position">
+                    <h1 class="section-title">Gavrichkov Ilya</h1>
+                    <p>Junior frontend-developer</p>
+                </div>
+            </section>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li class=""><span class="type-of-contact">Location:</span><i>Minsk, Belarus</i></li>
+                    <li><span class="type-of-contact">Phone:</span><i>+37529-557-68-39</i></li>
+                    <li><span class="type-of-contact">Email:</span><i>gavran2502@mail.ru</i></li>
+                    <li><span class="type-of-contact">Github:</span><i><a href="https://github.com/Ilya2502" class="contact-link">Ilya2502</a></i></li>
+                    <li><span class="type-of-contact">Telegram:</span><i><a href="https://t.me/Shikaka_cha_cha_cha" class="contact-link">@Shikaka_cha_cha_cha</a></i></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="summary">My goal is to change my profession and become a good developer. I have a technical education,
+                    I have a well-developed logical thinking, I know how to work in a team, I am stress resistant,
+                    I have a good sense of humor and I'm just a good person!
+                    For ten years I have been working in Minskenergo as a dispatcher. I manage the electrical networks,
+                    lead a liquidation of failure at an electrical networks and solve many other tasks,
+                    which help to provide residents of Minsk and the Minsk region with electricity.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li class="type-of-skills">HTML, CSS</li>
+                    <li class="type-of-skills">Javascript</li>
+                    <li class="type-of-skills">Git, GitHub</li>
+                    <li class="type-of-skills">VS Code</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+<code>export default (arr) =&gt; {
+    const check = Math.abs(arr[0] % 2);
+    return arr.filter((el) =&gt; Math.abs(el % 2) === check);
+    };</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Сourses</h2>
+                <ul>
+                    <li class="main-li"><span>HTML Academy free course</span></li>
+                    <li class="main-li"><span>Hexlet course frontend-developer complited 50%</span></li>
+                    <li class="main-li"><span>Successfully complited course «Intro to IT» LeverX Group</span></li>
+                    <li class="main-li"><span>Successfully complited course «Stage 0» RSSchool</span></li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ol>
+                    <li><a href="https://ilya2502.github.io/RSSchool-portfolio/index.html" class="project-link">RSSchool portfolio</a></li>
+                    <li><a href="https://Ilya2502.github.io/memory-game/index.html" class="project-link">RSSchool memory-game</a></li>
+                </ol>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>BNTU, energy faculty, electricity supply, 2006-2011 years</p>
+            </section>
+            <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li class="main-li"><span>English A2</span></li>
+                    <li class="main-li"><span>Russian and Belorussian native</span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>2022</p>
+            <a href="https://github.com/Ilya2502" class="github-link">Ilya2502</a>
+            <a href="https://rs.school/js"><img class="footer-logo" src="img/rs_school_js.svg" alt="logo of course"></a>
+        </div>
+    </footer>
+</body>
+</html>
